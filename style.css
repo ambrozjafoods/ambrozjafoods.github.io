@@ -55,6 +55,10 @@ section > div > p {
 
 section.home_4 {
   display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  max-height: 100vh;
 }
 
 section.home_4 > img {
